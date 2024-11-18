@@ -1,0 +1,39 @@
+.bg-custome-1 {
+    background-color: #F6F6F6;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    .hero-image {
+        max-width: 677px;
+    }
+}
+
+.bg-black-1 {
+    background-color: #000000;
+    color: white;
+}
+
+.bg-black-2 {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.portfolio-tag-link {
+    color: rgb(255 255 255 / 80%);
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid rgb(255 255 255 / 40%);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.btn-primary-outline-2 {
+    margin-right: 0;
+    background-color: #00000029;
+    color: #ffffff;
+    border: 1px solid #757575;
+}
